@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Heart, Calendar, Camera, Music } from 'lucide-react';
-import MusicPlayer from './components/MusicPlayer';
 import PhotoGallery from './components/PhotoGallery';
 import ScrollIndicator from './components/ScrollIndicator';
 
@@ -330,7 +329,6 @@ function App() {
         </div>
       </section>
 
-      <MusicPlayer />
     </div>
   );
 }

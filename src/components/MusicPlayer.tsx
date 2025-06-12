@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 // 🎵 Música: "Realidade ou Fantasia" - Henrique e Juliano
 // Nota: Para usar a música original, você precisará hospedar o arquivo MP3 em seu servidor
 // Por enquanto, usando um placeholder. Substitua pela URL real do arquivo de áudio
-const MUSIC_URL = "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"; // Placeholder - substitua pela música real
+const MUSIC_URL = "../realidadeoufantasia.mp3"; // Placeholder - substitua pela música real
 
 const MusicPlayer: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -87,7 +87,7 @@ const MusicPlayer: React.FC = () => {
           preload="metadata"
         >
           {/* 🎵 ALTERE AQUI: Substitua pela URL real da música "Realidade ou Fantasia" */}
-          <source src="../assets/realidadeoufantasia.mp3" type="audio/mpeg" />
+          <source src="../realidadeoufantasia.mp3" type="audio/mpeg" />
           {/* 
           Para a música real, você precisará:
           1. Fazer download da música "Realidade ou Fantasia" - Henrique e Juliano
