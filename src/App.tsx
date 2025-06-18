@@ -167,7 +167,7 @@ function App() {
               {
                 icon: Calendar,
                 title: "Quer namorar cmg?",
-                date: "08/12/2024",
+                date: "05/12/2024",
                 description: "Tá, esse dia foi um pouco chocante, mas, foi a minha melhor decisão, uma história que já vinha sendo construida a uns meses, mas agora, finalmente com uma data fixa"
               },
               {
